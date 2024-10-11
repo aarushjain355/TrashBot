@@ -1,0 +1,3 @@
+[console_scripts]
+wrapper = robot_body_perception.slam_toolbox_wrapper:main
+

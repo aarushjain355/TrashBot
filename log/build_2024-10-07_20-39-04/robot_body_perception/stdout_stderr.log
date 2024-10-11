@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/robot_body_perception/robot_body_perception.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_body_perception/robot_body_perception.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_body_perception/robot_body_perception.egg-info/entry_points.txt
+writing requirements to ../../build/robot_body_perception/robot_body_perception.egg-info/requires.txt
+writing top-level names to ../../build/robot_body_perception/robot_body_perception.egg-info/top_level.txt
+reading manifest file '../../build/robot_body_perception/robot_body_perception.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_body_perception/robot_body_perception.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robot_body_perception/slam_toolbox_wrapper.py -> /home/vicky/TrashBot_ws/build/robot_body_perception/build/lib/robot_body_perception
+running install
+running install_lib
+copying /home/vicky/TrashBot_ws/build/robot_body_perception/build/lib/robot_body_perception/slam_toolbox_wrapper.py -> /home/vicky/TrashBot_ws/install/robot_body_perception/lib/python3.8/site-packages/robot_body_perception
+byte-compiling /home/vicky/TrashBot_ws/install/robot_body_perception/lib/python3.8/site-packages/robot_body_perception/slam_toolbox_wrapper.py to slam_toolbox_wrapper.cpython-38.pyc
+running install_data
+copying package.xml -> /home/vicky/TrashBot_ws/install/robot_body_perception/share/robot_body_perception
+creating /home/vicky/TrashBot_ws/install/robot_body_perception/share/robot_body_perception/launch
+copying launch/robot_state_publisher.py -> /home/vicky/TrashBot_ws/install/robot_body_perception/share/robot_body_perception/launch
+creating /home/vicky/TrashBot_ws/install/robot_body_perception/share/robot_body_perception/urdf
+copying urdf/lidar_chassis_frames.urdf -> /home/vicky/TrashBot_ws/install/robot_body_perception/share/robot_body_perception/urdf
+running install_egg_info
+removing '/home/vicky/TrashBot_ws/install/robot_body_perception/lib/python3.8/site-packages/robot_body_perception-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/robot_body_perception/robot_body_perception.egg-info to /home/vicky/TrashBot_ws/install/robot_body_perception/lib/python3.8/site-packages/robot_body_perception-0.0.0-py3.8.egg-info
+running install_scripts
+Installing wrapper script to /home/vicky/TrashBot_ws/install/robot_body_perception/lib/robot_body_perception
+writing list of installed files to '/home/vicky/TrashBot_ws/build/robot_body_perception/install.log'

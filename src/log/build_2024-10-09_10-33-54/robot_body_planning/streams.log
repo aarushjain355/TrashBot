@@ -1,0 +1,25 @@
+[0.222s] Invoking command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/opt/ros/galactic /usr/bin/cmake --build /home/vicky/TrashBot_ws/src/build/robot_body_planning -- -j8 -l8
+[0.247s] [ 50%] [32mBuilding CXX object CMakeFiles/occupancy_map_retrieval.dir/src/test.cpp.o[0m
+[5.523s] [100%] [32m[1mLinking CXX executable occupancy_map_retrieval[0m
+[5.739s] [100%] Built target occupancy_map_retrieval
+[5.743s] Invoked command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/opt/ros/galactic /usr/bin/cmake --build /home/vicky/TrashBot_ws/src/build/robot_body_planning -- -j8 -l8
+[5.759s] Invoking command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/opt/ros/galactic /usr/bin/cmake --install /home/vicky/TrashBot_ws/src/build/robot_body_planning
+[5.762s] -- Install configuration: ""
+[5.762s] -- Installing: /home/vicky/TrashBot_ws/src/install/robot_body_planning/lib/robot_body_planning/occupancy_map_retrieval
+[5.764s] -- Set non-toolchain portion of runtime path of "/home/vicky/TrashBot_ws/src/install/robot_body_planning/lib/robot_body_planning/occupancy_map_retrieval" to ""
+[5.764s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/ament_index/resource_index/package_run_dependencies/robot_body_planning
+[5.764s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/ament_index/resource_index/parent_prefix_path/robot_body_planning
+[5.764s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/environment/ament_prefix_path.sh
+[5.764s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/environment/ament_prefix_path.dsv
+[5.764s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/environment/path.sh
+[5.764s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/environment/path.dsv
+[5.764s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/local_setup.bash
+[5.764s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/local_setup.sh
+[5.764s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/local_setup.zsh
+[5.764s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/local_setup.dsv
+[5.764s] -- Installing: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/package.dsv
+[5.764s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/ament_index/resource_index/packages/robot_body_planning
+[5.764s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/cmake/robot_body_planningConfig.cmake
+[5.764s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/cmake/robot_body_planningConfig-version.cmake
+[5.764s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/package.xml
+[5.766s] Invoked command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/opt/ros/galactic /usr/bin/cmake --install /home/vicky/TrashBot_ws/src/build/robot_body_planning

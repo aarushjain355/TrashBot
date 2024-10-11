@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/robot_body_perception/robot_body_perception.egg-info
+writing ../../build/robot_body_perception/robot_body_perception.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_body_perception/robot_body_perception.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_body_perception/robot_body_perception.egg-info/entry_points.txt
+writing requirements to ../../build/robot_body_perception/robot_body_perception.egg-info/requires.txt
+writing top-level names to ../../build/robot_body_perception/robot_body_perception.egg-info/top_level.txt
+writing manifest file '../../build/robot_body_perception/robot_body_perception.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_body_perception/robot_body_perception.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_body_perception/robot_body_perception.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vicky/TrashBot_ws/build/robot_body_perception/build
+creating /home/vicky/TrashBot_ws/build/robot_body_perception/build/lib
+creating /home/vicky/TrashBot_ws/build/robot_body_perception/build/lib/robot_body_perception
+copying robot_body_perception/__init__.py -> /home/vicky/TrashBot_ws/build/robot_body_perception/build/lib/robot_body_perception
+running install
+running install_lib
+creating /home/vicky/TrashBot_ws/install/robot_body_perception/lib/python3.8/site-packages/robot_body_perception
+copying /home/vicky/TrashBot_ws/build/robot_body_perception/build/lib/robot_body_perception/__init__.py -> /home/vicky/TrashBot_ws/install/robot_body_perception/lib/python3.8/site-packages/robot_body_perception
+byte-compiling /home/vicky/TrashBot_ws/install/robot_body_perception/lib/python3.8/site-packages/robot_body_perception/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/vicky/TrashBot_ws/install/robot_body_perception/share/ament_index
+creating /home/vicky/TrashBot_ws/install/robot_body_perception/share/ament_index/resource_index
+creating /home/vicky/TrashBot_ws/install/robot_body_perception/share/ament_index/resource_index/packages
+copying resource/robot_body_perception -> /home/vicky/TrashBot_ws/install/robot_body_perception/share/ament_index/resource_index/packages
+copying package.xml -> /home/vicky/TrashBot_ws/install/robot_body_perception/share/robot_body_perception
+running install_egg_info
+Copying ../../build/robot_body_perception/robot_body_perception.egg-info to /home/vicky/TrashBot_ws/install/robot_body_perception/lib/python3.8/site-packages/robot_body_perception-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/vicky/TrashBot_ws/build/robot_body_perception/install.log'

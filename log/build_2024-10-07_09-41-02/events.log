@@ -1,0 +1,45 @@
+[0.000000] (-) TimerEvent: {}
+[0.000172] (navigation_practice) JobQueued: {'identifier': 'navigation_practice', 'dependencies': OrderedDict()}
+[0.000206] (robot_body_perception) JobQueued: {'identifier': 'robot_body_perception', 'dependencies': OrderedDict()}
+[0.000219] (navigation_practice) JobStarted: {'identifier': 'navigation_practice'}
+[0.005472] (robot_body_perception) JobStarted: {'identifier': 'robot_body_perception'}
+[0.014749] (navigation_practice) JobProgress: {'identifier': 'navigation_practice', 'progress': 'cmake'}
+[0.014809] (navigation_practice) Command: {'cmd': ['/usr/bin/cmake', '/home/vicky/TrashBot_ws/src/navigation_practice', '-DCMAKE_INSTALL_PREFIX=/home/vicky/TrashBot_ws/install/navigation_practice'], 'cwd': '/home/vicky/TrashBot_ws/build/navigation_practice', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TRACK', 'LVMS'), ('LANGUAGE', 'en_CA:en'), ('USER', 'vicky'), ('SSH_AGENT_PID', '2502'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/TensorRT-8.4.2.4/lib:/usr/local/cuda-11.7/lib64::/usr/local/lib/:/opt/Vimba_4_2/VimbaCPP/Examples/Bin/x86_64bit/'), ('HOME', '/home/vicky'), ('OLDPWD', '/home/vicky'), ('DESKTOP_SESSION', 'ubuntu'), ('CONNEXTDDS_DIR', ''), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2399'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'vicky'), ('NDDS_QOS_PROFILES', '/home/vicky/rti_workspace/config/USER_QOS_PROFILES.xml'), ('JOURNAL_STREAM', '8:61989'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('VEHICLE_ID', '8'), ('USERNAME', 'vicky'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.7/bin:/home/vicky/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/aarush-ThinkPad-X1-Carbon-Gen-9:@/tmp/.ICE-unix/2540,unix/aarush-ThinkPad-X1-Carbon-Gen-9:/tmp/.ICE-unix/2540'), ('TRT_LIBPATH', '/usr/local/TensorRT-8.4.2.4/lib'), ('INVOCATION_ID', '78e0c1328cd147029d06bef0f88842f4'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/15d1791f_cf58_402e_ada3_4a2aac6833d1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '81'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vicky/TrashBot_ws/build/navigation_practice'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.099659] (-) TimerEvent: {}
+[0.100426] (navigation_practice) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.163413] (navigation_practice) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.172807] (navigation_practice) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199816] (-) TimerEvent: {}
+[0.214532] (navigation_practice) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.232275] (navigation_practice) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.233048] (navigation_practice) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.233671] (navigation_practice) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.239072] (navigation_practice) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.288904] (navigation_practice) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.299994] (-) TimerEvent: {}
+[0.308213] (navigation_practice) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.308710] (navigation_practice) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.309382] (navigation_practice) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.322502] (navigation_practice) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.322622] (navigation_practice) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.322690] (navigation_practice) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.322738] (navigation_practice) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.322776] (navigation_practice) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.322813] (navigation_practice) StderrLine: {'line': b'\n'}
+[0.322849] (navigation_practice) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.322887] (navigation_practice) StderrLine: {'line': b'  any of the following names:\n'}
+[0.322923] (navigation_practice) StderrLine: {'line': b'\n'}
+[0.322958] (navigation_practice) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.322995] (navigation_practice) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.323030] (navigation_practice) StderrLine: {'line': b'\n'}
+[0.323066] (navigation_practice) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.323102] (navigation_practice) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.323137] (navigation_practice) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.323173] (navigation_practice) StderrLine: {'line': b'  has been installed.\n'}
+[0.323209] (navigation_practice) StderrLine: {'line': b'\n'}
+[0.323244] (navigation_practice) StderrLine: {'line': b'\x1b[0m\n'}
+[0.326167] (navigation_practice) CommandEnded: {'returncode': 1}
+[0.337742] (navigation_practice) JobEnded: {'identifier': 'navigation_practice', 'rc': 1}
+[0.400189] (-) TimerEvent: {}
+[0.456312] (robot_body_perception) JobEnded: {'identifier': 'robot_body_perception', 'rc': 'SIGINT'}
+[0.466849] (-) EventReactorShutdown: {}

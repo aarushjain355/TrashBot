@@ -1,0 +1,24 @@
+[0.020s] Invoking command in '/home/vicky/TrashBot_ws/src/build/navigation_practice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/opt/ros/galactic /usr/bin/cmake --build /home/vicky/TrashBot_ws/src/build/navigation_practice -- -j8 -l8
+[0.212s] Invoked command in '/home/vicky/TrashBot_ws/src/build/navigation_practice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/opt/ros/galactic /usr/bin/cmake --build /home/vicky/TrashBot_ws/src/build/navigation_practice -- -j8 -l8
+[0.229s] Invoking command in '/home/vicky/TrashBot_ws/src/build/navigation_practice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/opt/ros/galactic /usr/bin/cmake --install /home/vicky/TrashBot_ws/src/build/navigation_practice
+[0.233s] -- Install configuration: ""
+[0.233s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/launch
+[0.233s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/launch/mapping.launch.py
+[0.233s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/config
+[0.233s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/config/turtlebot3_lds_2d.lua
+[0.233s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/ament_index/resource_index/package_run_dependencies/navigation_practice
+[0.233s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/ament_index/resource_index/parent_prefix_path/navigation_practice
+[0.233s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/environment/ament_prefix_path.sh
+[0.233s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/environment/ament_prefix_path.dsv
+[0.233s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/environment/path.sh
+[0.233s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/environment/path.dsv
+[0.233s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/local_setup.bash
+[0.233s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/local_setup.sh
+[0.233s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/local_setup.zsh
+[0.233s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/local_setup.dsv
+[0.233s] -- Installing: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/package.dsv
+[0.233s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/ament_index/resource_index/packages/navigation_practice
+[0.233s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/cmake/navigation_practiceConfig.cmake
+[0.233s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/cmake/navigation_practiceConfig-version.cmake
+[0.234s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/package.xml
+[0.234s] Invoked command in '/home/vicky/TrashBot_ws/src/build/navigation_practice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/opt/ros/galactic /usr/bin/cmake --install /home/vicky/TrashBot_ws/src/build/navigation_practice

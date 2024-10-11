@@ -1,0 +1,7 @@
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:[m[K In member function ‘[01m[Kvoid OccupancyGridToPoseGraph::grid_callback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:33:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kwidth[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   33 |             int [01;35m[Kwidth[m[K = test_message.info.width;
+      |                 [01;35m[K^~~~~[m[K
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:34:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kheight[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   34 |             int [01;35m[Kheight[m[K = test_message.info.height;
+      |                 [01;35m[K^~~~~~[m[K

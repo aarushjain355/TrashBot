@@ -1,0 +1,22 @@
+[0.569s] Invoking command in '/home/vicky/TrashBot_ws/src/robot_body_perception': PYTHONPATH=/home/vicky/TrashBot_ws/src/build/robot_body_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vicky/TrashBot_ws/src/install/robot_body_perception/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/robot_body_perception build --build-base /home/vicky/TrashBot_ws/src/build/robot_body_perception/build install --record /home/vicky/TrashBot_ws/src/build/robot_body_perception/install.log --single-version-externally-managed install_data
+[0.748s] running egg_info
+[0.748s] writing ../build/robot_body_perception/robot_body_perception.egg-info/PKG-INFO
+[0.749s] writing dependency_links to ../build/robot_body_perception/robot_body_perception.egg-info/dependency_links.txt
+[0.749s] writing entry points to ../build/robot_body_perception/robot_body_perception.egg-info/entry_points.txt
+[0.749s] writing requirements to ../build/robot_body_perception/robot_body_perception.egg-info/requires.txt
+[0.749s] writing top-level names to ../build/robot_body_perception/robot_body_perception.egg-info/top_level.txt
+[0.775s] reading manifest file '../build/robot_body_perception/robot_body_perception.egg-info/SOURCES.txt'
+[0.775s] writing manifest file '../build/robot_body_perception/robot_body_perception.egg-info/SOURCES.txt'
+[0.776s] running build
+[0.776s] running build_py
+[0.776s] running install
+[0.777s] running install_lib
+[0.778s] running install_data
+[0.778s] copying launch/robot_state_publisher.py -> /home/vicky/TrashBot_ws/src/install/robot_body_perception/share/robot_body_perception/launch
+[0.778s] running install_egg_info
+[0.780s] removing '/home/vicky/TrashBot_ws/src/install/robot_body_perception/lib/python3.8/site-packages/robot_body_perception-0.0.0-py3.8.egg-info' (and everything under it)
+[0.781s] Copying ../build/robot_body_perception/robot_body_perception.egg-info to /home/vicky/TrashBot_ws/src/install/robot_body_perception/lib/python3.8/site-packages/robot_body_perception-0.0.0-py3.8.egg-info
+[0.781s] running install_scripts
+[0.795s] Installing wrapper script to /home/vicky/TrashBot_ws/src/install/robot_body_perception/lib/robot_body_perception
+[0.795s] writing list of installed files to '/home/vicky/TrashBot_ws/src/build/robot_body_perception/install.log'
+[0.811s] Invoked command in '/home/vicky/TrashBot_ws/src/robot_body_perception' returned '0': PYTHONPATH=/home/vicky/TrashBot_ws/src/build/robot_body_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vicky/TrashBot_ws/src/install/robot_body_perception/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/robot_body_perception build --build-base /home/vicky/TrashBot_ws/src/build/robot_body_perception/build install --record /home/vicky/TrashBot_ws/src/build/robot_body_perception/install.log --single-version-externally-managed install_data

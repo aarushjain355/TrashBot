@@ -1,0 +1,4 @@
+Invoking command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning': /usr/bin/cmake --build /home/vicky/TrashBot_ws/src/build/robot_body_planning -- -j8 -l8
+Invoked command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning' returned '0': /usr/bin/cmake --build /home/vicky/TrashBot_ws/src/build/robot_body_planning -- -j8 -l8
+Invoking command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning': /usr/bin/cmake --install /home/vicky/TrashBot_ws/src/build/robot_body_planning
+Invoked command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning' returned '0': /usr/bin/cmake --install /home/vicky/TrashBot_ws/src/build/robot_body_planning

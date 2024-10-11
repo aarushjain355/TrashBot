@@ -1,0 +1,71 @@
+[0.244s] Invoking command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/opt/ros/galactic /usr/bin/cmake --build /home/vicky/TrashBot_ws/src/build/robot_body_planning -- -j8 -l8
+[0.260s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.260s] [33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.261s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.261s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.261s]   the cmake_policy command to set the policy and suppress this warning.
+[0.261s] 
+[0.261s] Call Stack (most recent call first):
+[0.261s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.261s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.261s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.261s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.261s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.261s]   CMakeLists.txt:9 (find_package)
+[0.261s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.261s] [0m
+[0.279s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.340s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.375s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.378s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.494s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.547s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.549s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.565s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.677s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[0.771s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.826s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.826s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.826s] -- Configured cppcheck include dirs: 
+[0.827s] -- Configured cppcheck exclude dirs and/or files: 
+[0.827s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.827s] -- Configured cpplint exclude dirs and/or files: 
+[0.827s] -- Added test 'lint_cmake' to check CMake code style
+[0.828s] -- Added test 'uncrustify' to check C / C++ code style
+[0.828s] -- Configured uncrustify additional arguments: 
+[0.828s] -- Added test 'xmllint' to check XML markup files
+[0.829s] -- Configuring done (0.6s)
+[0.842s] -- Generating done (0.0s)
+[0.842s] -- Build files have been written to: /home/vicky/TrashBot_ws/src/build/robot_body_planning
+[0.865s] [ 50%] [32mBuilding CXX object CMakeFiles/occupancy_map_retrieval.dir/src/occupancy_to_pose.cpp.o[0m
+[2.571s] [01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:[m[K In member function ‘[01m[Kvoid OccupancyGridToPoseGraph::grid_callback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.571s] [01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:33:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+[2.571s]    33 |             [01;31m[Kuint8[m[K width = test_message.info.width;
+[2.571s]       |             [01;31m[K^~~~~[m[K
+[2.571s]       |             [32m[Kuint[m[K
+[2.571s] [01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:34:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kheight[m[K’
+[2.571s]    34 |             uint8[01;31m[K [m[K[32m[Kheight[m[K = test_message.info.height;
+[2.571s]       |                  [01;31m[K^[m[K[32m[K~~~~~~[m[K
+[2.571s]       |                  [32m[K;[m[K
+[2.571s] [01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:35:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ktest_number_of_cells[m[K’
+[2.571s]    35 |             uint8[01;31m[K [m[K[32m[Ktest_number_of_cells[m[K = width*height;
+[2.572s]       |                  [01;31m[K^[m[K[32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[2.572s]       |                  [32m[K;[m[K
+[2.576s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+[2.576s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[2.576s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[2.576s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.576s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.576s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[2.576s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[2.576s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.576s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[2.576s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.576s]                  from [01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:1[m[K:
+[2.576s] [01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:59:83:[m[K [01;31m[Kerror: [m[K‘[01m[Ktest_number_of_cells[m[K’ was not declared in this scope
+[2.576s]    59 |             RCLCPP_INFO(this->get_logger(), "The Number of total points is:  %d", [01;31m[Ktest_number_of_cells[m[K);
+[2.576s]       |                                                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.339s] make[2]: *** [CMakeFiles/occupancy_map_retrieval.dir/build.make:76: CMakeFiles/occupancy_map_retrieval.dir/src/occupancy_to_pose.cpp.o] Error 1
+[4.339s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/occupancy_map_retrieval.dir/all] Error 2
+[4.340s] make: *** [Makefile:146: all] Error 2
+[4.341s] Invoked command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/opt/ros/galactic /usr/bin/cmake --build /home/vicky/TrashBot_ws/src/build/robot_body_planning -- -j8 -l8

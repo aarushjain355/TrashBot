@@ -1,0 +1,48 @@
+[0.237s] Invoking command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic:/home/vicky/TrashBot_ws/src/install/robot_body_perception /usr/bin/cmake --build /home/vicky/TrashBot_ws/src/build/robot_body_planning -- -j8 -l8
+[0.267s] [ 50%] [32mBuilding CXX object CMakeFiles/occupancy_map_retrieval.dir/src/occupancy_to_pose.cpp.o[0m
+[1.793s] [01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:[m[K In member function ‘[01m[Kvoid OccupancyGridToPoseGraph::grid_callback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr) const[m[K’:
+[1.793s] [01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:36:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Karray2D[m[K’ [[01;35m[K-Wvla[m[K]
+[1.793s]    36 |             int [01;35m[Karray2D[m[K[width][height];
+[1.793s]       |                 [01;35m[K^~~~~~~[m[K
+[1.793s] [01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:36:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Karray2D[m[K’ [[01;35m[K-Wvla[m[K]
+[1.793s] [01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:38:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[1.793s]    38 |             for (size_t i = 0; [01;35m[Ki < width[m[K; i++) {
+[1.793s]       |                                [01;35m[K~~^~~~~~~[m[K
+[1.793s] [01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:39:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[1.793s]    39 |                 for (size_t j = 0; [01;35m[Kj < height[m[K; j++) {
+[1.793s]       |                                    [01;35m[K~~^~~~~~~~[m[K
+[1.793s] [01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:47:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[1.794s]    47 |             for (size_t i = 0; [01;35m[Ki < height[m[K; ++i)
+[1.794s]       |                                [01;35m[K~~^~~~~~~~[m[K
+[1.794s] [01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:50:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[1.794s]    50 |                 for (size_t j = 0; [01;35m[Kj < width[m[K; ++j)
+[1.794s]       |                                    [01;35m[K~~^~~~~~~[m[K
+[1.794s] [01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:53:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[1.794s]    53 |                     if ([01;35m[Kj < width - 1[m[K)
+[1.794s]       |                         [01;35m[K~~^~~~~~~~~~~[m[K
+[1.794s] [01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:35:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktest_number_of_cells[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.794s]    35 |             int [01;35m[Ktest_number_of_cells[m[K = width*height;
+[1.794s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.803s] [100%] [32m[1mLinking CXX executable occupancy_map_retrieval[0m
+[6.043s] [100%] Built target occupancy_map_retrieval
+[6.047s] Invoked command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic:/home/vicky/TrashBot_ws/src/install/robot_body_perception /usr/bin/cmake --build /home/vicky/TrashBot_ws/src/build/robot_body_planning -- -j8 -l8
+[6.067s] Invoking command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic:/home/vicky/TrashBot_ws/src/install/robot_body_perception /usr/bin/cmake --install /home/vicky/TrashBot_ws/src/build/robot_body_planning
+[6.071s] -- Install configuration: ""
+[6.071s] -- Installing: /home/vicky/TrashBot_ws/src/install/robot_body_planning/lib/robot_body_planning/occupancy_map_retrieval
+[6.074s] -- Set non-toolchain portion of runtime path of "/home/vicky/TrashBot_ws/src/install/robot_body_planning/lib/robot_body_planning/occupancy_map_retrieval" to ""
+[6.074s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/ament_index/resource_index/package_run_dependencies/robot_body_planning
+[6.074s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/ament_index/resource_index/parent_prefix_path/robot_body_planning
+[6.074s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/environment/ament_prefix_path.sh
+[6.074s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/environment/ament_prefix_path.dsv
+[6.074s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/environment/path.sh
+[6.074s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/environment/path.dsv
+[6.074s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/local_setup.bash
+[6.074s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/local_setup.sh
+[6.074s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/local_setup.zsh
+[6.074s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/local_setup.dsv
+[6.074s] -- Installing: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/package.dsv
+[6.074s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/ament_index/resource_index/packages/robot_body_planning
+[6.074s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/cmake/robot_body_planningConfig.cmake
+[6.074s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/cmake/robot_body_planningConfig-version.cmake
+[6.074s] -- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/package.xml
+[6.076s] Invoked command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic:/home/vicky/TrashBot_ws/src/install/robot_body_perception /usr/bin/cmake --install /home/vicky/TrashBot_ws/src/build/robot_body_planning

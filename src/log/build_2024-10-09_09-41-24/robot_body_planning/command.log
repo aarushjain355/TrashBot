@@ -1,0 +1,2 @@
+Invoking command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning': /usr/bin/cmake --build /home/vicky/TrashBot_ws/src/build/robot_body_planning -- -j8 -l8
+Invoked command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning' returned '2': /usr/bin/cmake --build /home/vicky/TrashBot_ws/src/build/robot_body_planning -- -j8 -l8

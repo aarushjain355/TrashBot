@@ -1,0 +1,9 @@
+/home/vicky/TrashBot_ws/src/build/navigation_practice/CMakeFiles/uninstall.dir
+/home/vicky/TrashBot_ws/src/build/navigation_practice/CMakeFiles/navigation_practice_uninstall.dir
+/home/vicky/TrashBot_ws/src/build/navigation_practice/CMakeFiles/test.dir
+/home/vicky/TrashBot_ws/src/build/navigation_practice/CMakeFiles/edit_cache.dir
+/home/vicky/TrashBot_ws/src/build/navigation_practice/CMakeFiles/rebuild_cache.dir
+/home/vicky/TrashBot_ws/src/build/navigation_practice/CMakeFiles/list_install_components.dir
+/home/vicky/TrashBot_ws/src/build/navigation_practice/CMakeFiles/install.dir
+/home/vicky/TrashBot_ws/src/build/navigation_practice/CMakeFiles/install/local.dir
+/home/vicky/TrashBot_ws/src/build/navigation_practice/CMakeFiles/install/strip.dir

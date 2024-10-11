@@ -1,0 +1,2 @@
+Invoking command in '/home/vicky/TrashBot_ws/build/navigation_practice': /usr/bin/cmake /home/vicky/TrashBot_ws/src/navigation_practice -DCMAKE_INSTALL_PREFIX=/home/vicky/TrashBot_ws/install/navigation_practice
+Invoked command in '/home/vicky/TrashBot_ws/build/navigation_practice' returned '1': /usr/bin/cmake /home/vicky/TrashBot_ws/src/navigation_practice -DCMAKE_INSTALL_PREFIX=/home/vicky/TrashBot_ws/install/navigation_practice

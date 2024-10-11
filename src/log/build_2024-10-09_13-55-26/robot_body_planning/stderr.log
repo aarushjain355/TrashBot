@@ -1,0 +1,23 @@
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:[m[K In member function ‘[01m[Kvoid OccupancyGridToPoseGraph::grid_callback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:36:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Karray2D[m[K’ [[01;35m[K-Wvla[m[K]
+   36 |             int [01;35m[Karray2D[m[K[height][height];
+      |                 [01;35m[K^~~~~~~[m[K
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:36:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Karray2D[m[K’ [[01;35m[K-Wvla[m[K]
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:38:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   38 |             for (size_t i = 0; [01;35m[Ki < width[m[K; i++) {
+      |                                [01;35m[K~~^~~~~~~[m[K
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:39:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   39 |                 for (size_t j = 0; [01;35m[Kj < height[m[K; j++) {
+      |                                    [01;35m[K~~^~~~~~~~[m[K
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:47:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   47 |             for (size_t i = 0; [01;35m[Ki < height[m[K; ++i)
+      |                                [01;35m[K~~^~~~~~~~[m[K
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:50:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   50 |                 for (size_t j = 0; [01;35m[Kj < width[m[K; ++j)
+      |                                    [01;35m[K~~^~~~~~~[m[K
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:53:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   53 |                     if ([01;35m[Kj < width - 1[m[K)
+      |                         [01;35m[K~~^~~~~~~~~~~[m[K
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:35:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktest_number_of_cells[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   35 |             int [01;35m[Ktest_number_of_cells[m[K = width*height;
+      |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K

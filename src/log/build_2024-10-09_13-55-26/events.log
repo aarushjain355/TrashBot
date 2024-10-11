@@ -1,0 +1,245 @@
+[0.000000] (-) TimerEvent: {}
+[0.000399] (navigation_practice) JobQueued: {'identifier': 'navigation_practice', 'dependencies': OrderedDict()}
+[0.000794] (robot_body_perception) JobQueued: {'identifier': 'robot_body_perception', 'dependencies': OrderedDict()}
+[0.001032] (robot_body_planning) JobQueued: {'identifier': 'robot_body_planning', 'dependencies': OrderedDict()}
+[0.001062] (navigation_practice) JobStarted: {'identifier': 'navigation_practice'}
+[0.011770] (robot_body_perception) JobStarted: {'identifier': 'robot_body_perception'}
+[0.024757] (robot_body_planning) JobStarted: {'identifier': 'robot_body_planning'}
+[0.037644] (navigation_practice) JobProgress: {'identifier': 'navigation_practice', 'progress': 'cmake'}
+[0.039265] (navigation_practice) JobProgress: {'identifier': 'navigation_practice', 'progress': 'build'}
+[0.040232] (navigation_practice) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vicky/TrashBot_ws/src/build/navigation_practice', '--', '-j8', '-l8'], 'cwd': '/home/vicky/TrashBot_ws/src/build/navigation_practice', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TRACK', 'LVMS'), ('LANGUAGE', 'en_CA:en'), ('USER', 'vicky'), ('SSH_AGENT_PID', '2609'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/TensorRT-8.4.2.4/lib:/usr/local/cuda-11.7/lib64::/usr/local/lib/:/opt/Vimba_4_2/VimbaCPP/Examples/Bin/x86_64bit/'), ('HOME', '/home/vicky'), ('DESKTOP_SESSION', 'ubuntu'), ('CONNEXTDDS_DIR', ''), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2511'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vicky/TrashBot_ws/src/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'vicky'), ('NDDS_QOS_PROFILES', '/home/vicky/rti_workspace/config/USER_QOS_PROFILES.xml'), ('JOURNAL_STREAM', '8:63804'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('VEHICLE_ID', '8'), ('USERNAME', 'vicky'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/cuda-11.7/bin:/home/vicky/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/aarush-ThinkPad-X1-Carbon-Gen-9:@/tmp/.ICE-unix/2653,unix/aarush-ThinkPad-X1-Carbon-Gen-9:/tmp/.ICE-unix/2653'), ('TRT_LIBPATH', '/usr/local/TensorRT-8.4.2.4/lib'), ('INVOCATION_ID', '51583c21208547eb8c415702d589fdbe'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8ca6b32e_00e2_4c48_a91f_3a54f493d05b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '81'), ('AMENT_PREFIX_PATH', '/home/vicky/TrashBot_ws/src/install/robot_body_planning:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/home/vicky/TrashBot_ws/src/install/navigation_practice:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vicky/TrashBot_ws/src/build/navigation_practice'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vicky/TrashBot_ws/src/install/robot_body_perception/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vicky/TrashBot_ws/src/install/robot_body_planning:/home/vicky/TrashBot_ws/src/install/navigation_practice:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/opt/ros/galactic')]), 'shell': False}
+[0.099711] (-) TimerEvent: {}
+[0.200279] (-) TimerEvent: {}
+[0.300688] (-) TimerEvent: {}
+[0.401122] (-) TimerEvent: {}
+[0.501701] (-) TimerEvent: {}
+[0.506232] (robot_body_planning) JobProgress: {'identifier': 'robot_body_planning', 'progress': 'cmake'}
+[0.507083] (robot_body_planning) JobProgress: {'identifier': 'robot_body_planning', 'progress': 'build'}
+[0.507680] (robot_body_planning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vicky/TrashBot_ws/src/build/robot_body_planning', '--', '-j8', '-l8'], 'cwd': '/home/vicky/TrashBot_ws/src/build/robot_body_planning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TRACK', 'LVMS'), ('LANGUAGE', 'en_CA:en'), ('USER', 'vicky'), ('SSH_AGENT_PID', '2609'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/TensorRT-8.4.2.4/lib:/usr/local/cuda-11.7/lib64::/usr/local/lib/:/opt/Vimba_4_2/VimbaCPP/Examples/Bin/x86_64bit/'), ('HOME', '/home/vicky'), ('DESKTOP_SESSION', 'ubuntu'), ('CONNEXTDDS_DIR', ''), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2511'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vicky/TrashBot_ws/src/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'vicky'), ('NDDS_QOS_PROFILES', '/home/vicky/rti_workspace/config/USER_QOS_PROFILES.xml'), ('JOURNAL_STREAM', '8:63804'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('VEHICLE_ID', '8'), ('USERNAME', 'vicky'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/cuda-11.7/bin:/home/vicky/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/aarush-ThinkPad-X1-Carbon-Gen-9:@/tmp/.ICE-unix/2653,unix/aarush-ThinkPad-X1-Carbon-Gen-9:/tmp/.ICE-unix/2653'), ('TRT_LIBPATH', '/usr/local/TensorRT-8.4.2.4/lib'), ('INVOCATION_ID', '51583c21208547eb8c415702d589fdbe'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8ca6b32e_00e2_4c48_a91f_3a54f493d05b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '81'), ('AMENT_PREFIX_PATH', '/home/vicky/TrashBot_ws/src/install/robot_body_planning:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/home/vicky/TrashBot_ws/src/install/navigation_practice:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vicky/TrashBot_ws/src/build/robot_body_planning'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vicky/TrashBot_ws/src/install/robot_body_perception/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vicky/TrashBot_ws/src/install/robot_body_planning:/home/vicky/TrashBot_ws/src/install/navigation_practice:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/opt/ros/galactic')]), 'shell': False}
+[0.512646] (navigation_practice) CommandEnded: {'returncode': 0}
+[0.546518] (navigation_practice) JobProgress: {'identifier': 'navigation_practice', 'progress': 'install'}
+[0.560510] (navigation_practice) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vicky/TrashBot_ws/src/build/navigation_practice'], 'cwd': '/home/vicky/TrashBot_ws/src/build/navigation_practice', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TRACK', 'LVMS'), ('LANGUAGE', 'en_CA:en'), ('USER', 'vicky'), ('SSH_AGENT_PID', '2609'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/TensorRT-8.4.2.4/lib:/usr/local/cuda-11.7/lib64::/usr/local/lib/:/opt/Vimba_4_2/VimbaCPP/Examples/Bin/x86_64bit/'), ('HOME', '/home/vicky'), ('DESKTOP_SESSION', 'ubuntu'), ('CONNEXTDDS_DIR', ''), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2511'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vicky/TrashBot_ws/src/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'vicky'), ('NDDS_QOS_PROFILES', '/home/vicky/rti_workspace/config/USER_QOS_PROFILES.xml'), ('JOURNAL_STREAM', '8:63804'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('VEHICLE_ID', '8'), ('USERNAME', 'vicky'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/cuda-11.7/bin:/home/vicky/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/aarush-ThinkPad-X1-Carbon-Gen-9:@/tmp/.ICE-unix/2653,unix/aarush-ThinkPad-X1-Carbon-Gen-9:/tmp/.ICE-unix/2653'), ('TRT_LIBPATH', '/usr/local/TensorRT-8.4.2.4/lib'), ('INVOCATION_ID', '51583c21208547eb8c415702d589fdbe'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8ca6b32e_00e2_4c48_a91f_3a54f493d05b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '81'), ('AMENT_PREFIX_PATH', '/home/vicky/TrashBot_ws/src/install/robot_body_planning:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/home/vicky/TrashBot_ws/src/install/navigation_practice:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vicky/TrashBot_ws/src/build/navigation_practice'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vicky/TrashBot_ws/src/install/robot_body_perception/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vicky/TrashBot_ws/src/install/robot_body_planning:/home/vicky/TrashBot_ws/src/install/navigation_practice:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/opt/ros/galactic')]), 'shell': False}
+[0.567319] (navigation_practice) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.567692] (navigation_practice) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/launch\n'}
+[0.567993] (navigation_practice) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/launch/mapping.launch.py\n'}
+[0.568413] (navigation_practice) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/config\n'}
+[0.568640] (navigation_practice) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/config/turtlebot3_lds_2d.lua\n'}
+[0.568785] (navigation_practice) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/ament_index/resource_index/package_run_dependencies/navigation_practice\n'}
+[0.569078] (navigation_practice) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/ament_index/resource_index/parent_prefix_path/navigation_practice\n'}
+[0.569215] (navigation_practice) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/environment/ament_prefix_path.sh\n'}
+[0.569327] (navigation_practice) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/environment/ament_prefix_path.dsv\n'}
+[0.569423] (navigation_practice) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/environment/path.sh\n'}
+[0.569515] (navigation_practice) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/environment/path.dsv\n'}
+[0.569611] (navigation_practice) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/local_setup.bash\n'}
+[0.569704] (navigation_practice) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/local_setup.sh\n'}
+[0.569796] (navigation_practice) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/local_setup.zsh\n'}
+[0.569888] (navigation_practice) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/local_setup.dsv\n'}
+[0.570161] (navigation_practice) StdoutLine: {'line': b'-- Installing: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/package.dsv\n'}
+[0.570780] (navigation_practice) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/ament_index/resource_index/packages/navigation_practice\n'}
+[0.570936] (navigation_practice) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/cmake/navigation_practiceConfig.cmake\n'}
+[0.571900] (navigation_practice) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/cmake/navigation_practiceConfig-version.cmake\n'}
+[0.572060] (navigation_practice) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/package.xml\n'}
+[0.575289] (robot_body_planning) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/occupancy_map_retrieval.dir/src/occupancy_to_pose.cpp.o\x1b[0m\n'}
+[0.594809] (navigation_practice) CommandEnded: {'returncode': 0}
+[0.604575] (-) TimerEvent: {}
+[0.670529] (navigation_practice) JobEnded: {'identifier': 'navigation_practice', 'rc': 0}
+[0.704729] (-) TimerEvent: {}
+[0.805249] (-) TimerEvent: {}
+[0.905739] (-) TimerEvent: {}
+[1.006248] (-) TimerEvent: {}
+[1.106763] (-) TimerEvent: {}
+[1.207277] (-) TimerEvent: {}
+[1.307796] (-) TimerEvent: {}
+[1.362712] (robot_body_perception) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/robot_body_perception', 'build', '--build-base', '/home/vicky/TrashBot_ws/src/build/robot_body_perception/build', 'install', '--record', '/home/vicky/TrashBot_ws/src/build/robot_body_perception/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vicky/TrashBot_ws/src/robot_body_perception', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'TRACK': 'LVMS', 'LANGUAGE': 'en_CA:en', 'USER': 'vicky', 'SSH_AGENT_PID': '2609', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/TensorRT-8.4.2.4/lib:/usr/local/cuda-11.7/lib64::/usr/local/lib/:/opt/Vimba_4_2/VimbaCPP/Examples/Bin/x86_64bit/', 'HOME': '/home/vicky', 'DESKTOP_SESSION': 'ubuntu', 'CONNEXTDDS_DIR': '', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2511', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/vicky/TrashBot_ws/src/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'vicky', 'NDDS_QOS_PROFILES': '/home/vicky/rti_workspace/config/USER_QOS_PROFILES.xml', 'JOURNAL_STREAM': '8:63804', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'VEHICLE_ID': '8', 'USERNAME': 'vicky', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/usr/local/cuda-11.7/bin:/home/vicky/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/aarush-ThinkPad-X1-Carbon-Gen-9:@/tmp/.ICE-unix/2653,unix/aarush-ThinkPad-X1-Carbon-Gen-9:/tmp/.ICE-unix/2653', 'TRT_LIBPATH': '/usr/local/TensorRT-8.4.2.4/lib', 'INVOCATION_ID': '51583c21208547eb8c415702d589fdbe', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/8ca6b32e_00e2_4c48_a91f_3a54f493d05b', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.97', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '81', 'AMENT_PREFIX_PATH': '/home/vicky/TrashBot_ws/src/install/robot_body_planning:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/home/vicky/TrashBot_ws/src/install/navigation_practice:/opt/ros/galactic', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vicky/TrashBot_ws/src/build/robot_body_perception', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vicky/TrashBot_ws/src/build/robot_body_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vicky/TrashBot_ws/src/install/robot_body_perception/lib/python3.8/site-packages:/home/vicky/TrashBot_ws/src/install/robot_body_perception/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/vicky/TrashBot_ws/src/install/robot_body_planning:/home/vicky/TrashBot_ws/src/install/navigation_practice'}, 'shell': False}
+[1.407950] (-) TimerEvent: {}
+[1.508475] (-) TimerEvent: {}
+[1.608927] (-) TimerEvent: {}
+[1.709316] (-) TimerEvent: {}
+[1.809731] (-) TimerEvent: {}
+[1.858914] (robot_body_perception) StdoutLine: {'line': b'running egg_info\n'}
+[1.860463] (robot_body_perception) StdoutLine: {'line': b'writing ../build/robot_body_perception/robot_body_perception.egg-info/PKG-INFO\n'}
+[1.861056] (robot_body_perception) StdoutLine: {'line': b'writing dependency_links to ../build/robot_body_perception/robot_body_perception.egg-info/dependency_links.txt\n'}
+[1.861316] (robot_body_perception) StdoutLine: {'line': b'writing entry points to ../build/robot_body_perception/robot_body_perception.egg-info/entry_points.txt\n'}
+[1.861787] (robot_body_perception) StdoutLine: {'line': b'writing requirements to ../build/robot_body_perception/robot_body_perception.egg-info/requires.txt\n'}
+[1.862136] (robot_body_perception) StdoutLine: {'line': b'writing top-level names to ../build/robot_body_perception/robot_body_perception.egg-info/top_level.txt\n'}
+[1.909871] (-) TimerEvent: {}
+[1.934464] (robot_body_perception) StdoutLine: {'line': b"reading manifest file '../build/robot_body_perception/robot_body_perception.egg-info/SOURCES.txt'\n"}
+[1.936374] (robot_body_perception) StdoutLine: {'line': b"writing manifest file '../build/robot_body_perception/robot_body_perception.egg-info/SOURCES.txt'\n"}
+[1.936796] (robot_body_perception) StdoutLine: {'line': b'running build\n'}
+[1.936996] (robot_body_perception) StdoutLine: {'line': b'running build_py\n'}
+[1.937267] (robot_body_perception) StdoutLine: {'line': b'running install\n'}
+[1.938499] (robot_body_perception) StdoutLine: {'line': b'running install_lib\n'}
+[1.941174] (robot_body_perception) StdoutLine: {'line': b'running install_data\n'}
+[1.941556] (robot_body_perception) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.945850] (robot_body_perception) StdoutLine: {'line': b"removing '/home/vicky/TrashBot_ws/src/install/robot_body_perception/lib/python3.8/site-packages/robot_body_perception-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.946320] (robot_body_perception) StdoutLine: {'line': b'Copying ../build/robot_body_perception/robot_body_perception.egg-info to /home/vicky/TrashBot_ws/src/install/robot_body_perception/lib/python3.8/site-packages/robot_body_perception-0.0.0-py3.8.egg-info\n'}
+[1.947552] (robot_body_perception) StdoutLine: {'line': b'running install_scripts\n'}
+[1.982539] (robot_body_perception) StdoutLine: {'line': b'Installing wrapper script to /home/vicky/TrashBot_ws/src/install/robot_body_perception/lib/robot_body_perception\n'}
+[1.983260] (robot_body_perception) StdoutLine: {'line': b"writing list of installed files to '/home/vicky/TrashBot_ws/src/build/robot_body_perception/install.log'\n"}
+[2.009998] (-) TimerEvent: {}
+[2.025044] (robot_body_perception) CommandEnded: {'returncode': 0}
+[2.034069] (robot_body_perception) JobEnded: {'identifier': 'robot_body_perception', 'rc': 0}
+[2.110148] (-) TimerEvent: {}
+[2.210581] (-) TimerEvent: {}
+[2.311056] (-) TimerEvent: {}
+[2.411477] (-) TimerEvent: {}
+[2.511940] (-) TimerEvent: {}
+[2.612433] (-) TimerEvent: {}
+[2.713074] (-) TimerEvent: {}
+[2.813644] (-) TimerEvent: {}
+[2.914113] (-) TimerEvent: {}
+[3.014619] (-) TimerEvent: {}
+[3.115131] (-) TimerEvent: {}
+[3.215631] (-) TimerEvent: {}
+[3.316034] (-) TimerEvent: {}
+[3.416503] (-) TimerEvent: {}
+[3.516930] (-) TimerEvent: {}
+[3.617387] (-) TimerEvent: {}
+[3.717818] (-) TimerEvent: {}
+[3.818236] (-) TimerEvent: {}
+[3.918582] (-) TimerEvent: {}
+[4.018952] (-) TimerEvent: {}
+[4.119377] (-) TimerEvent: {}
+[4.219832] (-) TimerEvent: {}
+[4.320221] (-) TimerEvent: {}
+[4.350489] (robot_body_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid OccupancyGridToPoseGraph::grid_callback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.350851] (robot_body_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:36:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Karray2D\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wvla\x1b[m\x1b[K]\n'}
+[4.351032] (robot_body_planning) StderrLine: {'line': b'   36 |             int \x1b[01;35m\x1b[Karray2D\x1b[m\x1b[K[height][height];\n'}
+[4.351152] (robot_body_planning) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.351251] (robot_body_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:36:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Karray2D\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wvla\x1b[m\x1b[K]\n'}
+[4.351379] (robot_body_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:38:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[4.351534] (robot_body_planning) StderrLine: {'line': b'   38 |             for (size_t i = 0; \x1b[01;35m\x1b[Ki < width\x1b[m\x1b[K; i++) {\n'}
+[4.351706] (robot_body_planning) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K~~^~~~~~~\x1b[m\x1b[K\n'}
+[4.351910] (robot_body_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:39:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[4.352358] (robot_body_planning) StderrLine: {'line': b'   39 |                 for (size_t j = 0; \x1b[01;35m\x1b[Kj < height\x1b[m\x1b[K; j++) {\n'}
+[4.352542] (robot_body_planning) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~^~~~~~~~\x1b[m\x1b[K\n'}
+[4.352703] (robot_body_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:47:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[4.352848] (robot_body_planning) StderrLine: {'line': b'   47 |             for (size_t i = 0; \x1b[01;35m\x1b[Ki < height\x1b[m\x1b[K; ++i)\n'}
+[4.352991] (robot_body_planning) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K~~^~~~~~~~\x1b[m\x1b[K\n'}
+[4.353117] (robot_body_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:50:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[4.353219] (robot_body_planning) StderrLine: {'line': b'   50 |                 for (size_t j = 0; \x1b[01;35m\x1b[Kj < width\x1b[m\x1b[K; ++j)\n'}
+[4.353314] (robot_body_planning) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~^~~~~~~\x1b[m\x1b[K\n'}
+[4.353409] (robot_body_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:53:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[4.353504] (robot_body_planning) StderrLine: {'line': b'   53 |                     if (\x1b[01;35m\x1b[Kj < width - 1\x1b[m\x1b[K)\n'}
+[4.353597] (robot_body_planning) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.354710] (robot_body_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:35:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktest_number_of_cells\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[4.354881] (robot_body_planning) StderrLine: {'line': b'   35 |             int \x1b[01;35m\x1b[Ktest_number_of_cells\x1b[m\x1b[K = width*height;\n'}
+[4.355002] (robot_body_planning) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.420362] (-) TimerEvent: {}
+[4.520793] (-) TimerEvent: {}
+[4.621249] (-) TimerEvent: {}
+[4.721669] (-) TimerEvent: {}
+[4.822064] (-) TimerEvent: {}
+[4.922536] (-) TimerEvent: {}
+[5.022911] (-) TimerEvent: {}
+[5.123283] (-) TimerEvent: {}
+[5.223699] (-) TimerEvent: {}
+[5.324072] (-) TimerEvent: {}
+[5.424448] (-) TimerEvent: {}
+[5.524815] (-) TimerEvent: {}
+[5.625218] (-) TimerEvent: {}
+[5.725608] (-) TimerEvent: {}
+[5.825994] (-) TimerEvent: {}
+[5.926361] (-) TimerEvent: {}
+[6.026724] (-) TimerEvent: {}
+[6.127102] (-) TimerEvent: {}
+[6.227573] (-) TimerEvent: {}
+[6.328026] (-) TimerEvent: {}
+[6.428346] (-) TimerEvent: {}
+[6.528736] (-) TimerEvent: {}
+[6.629138] (-) TimerEvent: {}
+[6.729526] (-) TimerEvent: {}
+[6.829912] (-) TimerEvent: {}
+[6.930391] (-) TimerEvent: {}
+[7.030871] (-) TimerEvent: {}
+[7.131337] (-) TimerEvent: {}
+[7.231776] (-) TimerEvent: {}
+[7.332175] (-) TimerEvent: {}
+[7.432604] (-) TimerEvent: {}
+[7.533038] (-) TimerEvent: {}
+[7.633451] (-) TimerEvent: {}
+[7.733890] (-) TimerEvent: {}
+[7.834302] (-) TimerEvent: {}
+[7.934683] (-) TimerEvent: {}
+[8.035105] (-) TimerEvent: {}
+[8.135499] (-) TimerEvent: {}
+[8.235888] (-) TimerEvent: {}
+[8.336309] (-) TimerEvent: {}
+[8.436736] (-) TimerEvent: {}
+[8.537108] (-) TimerEvent: {}
+[8.637459] (-) TimerEvent: {}
+[8.737803] (-) TimerEvent: {}
+[8.838178] (-) TimerEvent: {}
+[8.938507] (-) TimerEvent: {}
+[9.038891] (-) TimerEvent: {}
+[9.139329] (-) TimerEvent: {}
+[9.239783] (-) TimerEvent: {}
+[9.340139] (-) TimerEvent: {}
+[9.440665] (-) TimerEvent: {}
+[9.541042] (-) TimerEvent: {}
+[9.641425] (-) TimerEvent: {}
+[9.741821] (-) TimerEvent: {}
+[9.842179] (-) TimerEvent: {}
+[9.942547] (-) TimerEvent: {}
+[10.042974] (-) TimerEvent: {}
+[10.143432] (-) TimerEvent: {}
+[10.244012] (-) TimerEvent: {}
+[10.344529] (-) TimerEvent: {}
+[10.445014] (-) TimerEvent: {}
+[10.545502] (-) TimerEvent: {}
+[10.646004] (-) TimerEvent: {}
+[10.746544] (-) TimerEvent: {}
+[10.847038] (-) TimerEvent: {}
+[10.947521] (-) TimerEvent: {}
+[11.048284] (-) TimerEvent: {}
+[11.148825] (-) TimerEvent: {}
+[11.249714] (-) TimerEvent: {}
+[11.350193] (-) TimerEvent: {}
+[11.450690] (-) TimerEvent: {}
+[11.551174] (-) TimerEvent: {}
+[11.651596] (-) TimerEvent: {}
+[11.752086] (-) TimerEvent: {}
+[11.852495] (-) TimerEvent: {}
+[11.952916] (-) TimerEvent: {}
+[12.053250] (-) TimerEvent: {}
+[12.153637] (-) TimerEvent: {}
+[12.254031] (-) TimerEvent: {}
+[12.354441] (-) TimerEvent: {}
+[12.454870] (-) TimerEvent: {}
+[12.556653] (-) TimerEvent: {}
+[12.657023] (-) TimerEvent: {}
+[12.757383] (-) TimerEvent: {}
+[12.857847] (-) TimerEvent: {}
+[12.958289] (-) TimerEvent: {}
+[12.981267] (robot_body_planning) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable occupancy_map_retrieval\x1b[0m\n'}
+[13.058429] (-) TimerEvent: {}
+[13.158860] (-) TimerEvent: {}
+[13.259366] (-) TimerEvent: {}
+[13.359838] (-) TimerEvent: {}
+[13.460250] (-) TimerEvent: {}
+[13.501867] (robot_body_planning) StdoutLine: {'line': b'[100%] Built target occupancy_map_retrieval\n'}
+[13.510588] (robot_body_planning) CommandEnded: {'returncode': 0}
+[13.546530] (robot_body_planning) JobProgress: {'identifier': 'robot_body_planning', 'progress': 'install'}
+[13.547214] (robot_body_planning) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vicky/TrashBot_ws/src/build/robot_body_planning'], 'cwd': '/home/vicky/TrashBot_ws/src/build/robot_body_planning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TRACK', 'LVMS'), ('LANGUAGE', 'en_CA:en'), ('USER', 'vicky'), ('SSH_AGENT_PID', '2609'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/TensorRT-8.4.2.4/lib:/usr/local/cuda-11.7/lib64::/usr/local/lib/:/opt/Vimba_4_2/VimbaCPP/Examples/Bin/x86_64bit/'), ('HOME', '/home/vicky'), ('DESKTOP_SESSION', 'ubuntu'), ('CONNEXTDDS_DIR', ''), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2511'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vicky/TrashBot_ws/src/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'vicky'), ('NDDS_QOS_PROFILES', '/home/vicky/rti_workspace/config/USER_QOS_PROFILES.xml'), ('JOURNAL_STREAM', '8:63804'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('VEHICLE_ID', '8'), ('USERNAME', 'vicky'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/cuda-11.7/bin:/home/vicky/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/aarush-ThinkPad-X1-Carbon-Gen-9:@/tmp/.ICE-unix/2653,unix/aarush-ThinkPad-X1-Carbon-Gen-9:/tmp/.ICE-unix/2653'), ('TRT_LIBPATH', '/usr/local/TensorRT-8.4.2.4/lib'), ('INVOCATION_ID', '51583c21208547eb8c415702d589fdbe'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8ca6b32e_00e2_4c48_a91f_3a54f493d05b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '81'), ('AMENT_PREFIX_PATH', '/home/vicky/TrashBot_ws/src/install/robot_body_planning:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/home/vicky/TrashBot_ws/src/install/navigation_practice:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vicky/TrashBot_ws/src/build/robot_body_planning'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vicky/TrashBot_ws/src/install/robot_body_perception/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vicky/TrashBot_ws/src/install/robot_body_planning:/home/vicky/TrashBot_ws/src/install/navigation_practice:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/opt/ros/galactic')]), 'shell': False}
+[13.556451] (robot_body_planning) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.556885] (robot_body_planning) StdoutLine: {'line': b'-- Installing: /home/vicky/TrashBot_ws/src/install/robot_body_planning/lib/robot_body_planning/occupancy_map_retrieval\n'}
+[13.560348] (-) TimerEvent: {}
+[13.561918] (robot_body_planning) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/vicky/TrashBot_ws/src/install/robot_body_planning/lib/robot_body_planning/occupancy_map_retrieval" to ""\n'}
+[13.562353] (robot_body_planning) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/ament_index/resource_index/package_run_dependencies/robot_body_planning\n'}
+[13.562673] (robot_body_planning) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/ament_index/resource_index/parent_prefix_path/robot_body_planning\n'}
+[13.562910] (robot_body_planning) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/environment/ament_prefix_path.sh\n'}
+[13.563122] (robot_body_planning) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/environment/ament_prefix_path.dsv\n'}
+[13.563326] (robot_body_planning) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/environment/path.sh\n'}
+[13.563812] (robot_body_planning) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/environment/path.dsv\n'}
+[13.564033] (robot_body_planning) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/local_setup.bash\n'}
+[13.564226] (robot_body_planning) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/local_setup.sh\n'}
+[13.564460] (robot_body_planning) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/local_setup.zsh\n'}
+[13.564642] (robot_body_planning) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/local_setup.dsv\n'}
+[13.564808] (robot_body_planning) StdoutLine: {'line': b'-- Installing: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/package.dsv\n'}
+[13.564968] (robot_body_planning) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/ament_index/resource_index/packages/robot_body_planning\n'}
+[13.567490] (robot_body_planning) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/cmake/robot_body_planningConfig.cmake\n'}
+[13.568221] (robot_body_planning) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/cmake/robot_body_planningConfig-version.cmake\n'}
+[13.568377] (robot_body_planning) StdoutLine: {'line': b'-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/package.xml\n'}
+[13.568496] (robot_body_planning) CommandEnded: {'returncode': 0}
+[13.626392] (robot_body_planning) JobEnded: {'identifier': 'robot_body_planning', 'rc': 0}
+[13.628235] (-) EventReactorShutdown: {}

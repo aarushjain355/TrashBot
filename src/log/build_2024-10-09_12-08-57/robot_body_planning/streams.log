@@ -1,0 +1,15 @@
+[0.228s] Invoking command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/opt/ros/galactic /usr/bin/cmake --build /home/vicky/TrashBot_ws/src/build/robot_body_planning -- -j8 -l8
+[0.256s] [ 50%] [32mBuilding CXX object CMakeFiles/occupancy_map_retrieval.dir/src/occupancy_to_pose.cpp.o[0m
+[1.906s] [01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:[m[K In member function ‘[01m[Kvoid OccupancyGridToPoseGraph::grid_callback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr) const[m[K’:
+[1.906s] [01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:33:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+[1.906s]    33 |             [01;31m[Kuint8[m[K width = test_message.info.width;
+[1.906s]       |             [01;31m[K^~~~~[m[K
+[1.906s]       |             [32m[Kuint[m[K
+[1.906s] [01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:34:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kheight[m[K’
+[1.906s]    34 |             uint8[01;31m[K [m[K[32m[Kheight[m[K = test_message.info.height;
+[1.906s]       |                  [01;31m[K^[m[K[32m[K~~~~~~[m[K
+[1.906s]       |                  [32m[K;[m[K
+[3.584s] make[2]: *** [CMakeFiles/occupancy_map_retrieval.dir/build.make:76: CMakeFiles/occupancy_map_retrieval.dir/src/occupancy_to_pose.cpp.o] Error 1
+[3.584s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/occupancy_map_retrieval.dir/all] Error 2
+[3.584s] make: *** [Makefile:146: all] Error 2
+[3.585s] Invoked command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/opt/ros/galactic /usr/bin/cmake --build /home/vicky/TrashBot_ws/src/build/robot_body_planning -- -j8 -l8

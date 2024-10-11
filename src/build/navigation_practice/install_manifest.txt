@@ -1,0 +1,17 @@
+/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/launch/mapping.launch.py
+/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/config/turtlebot3_lds_2d.lua
+/home/vicky/TrashBot_ws/src/install/navigation_practice/share/ament_index/resource_index/package_run_dependencies/navigation_practice
+/home/vicky/TrashBot_ws/src/install/navigation_practice/share/ament_index/resource_index/parent_prefix_path/navigation_practice
+/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/environment/ament_prefix_path.sh
+/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/environment/ament_prefix_path.dsv
+/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/environment/path.sh
+/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/environment/path.dsv
+/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/local_setup.bash
+/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/local_setup.sh
+/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/local_setup.zsh
+/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/local_setup.dsv
+/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/package.dsv
+/home/vicky/TrashBot_ws/src/install/navigation_practice/share/ament_index/resource_index/packages/navigation_practice
+/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/cmake/navigation_practiceConfig.cmake
+/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/cmake/navigation_practiceConfig-version.cmake
+/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/package.xml

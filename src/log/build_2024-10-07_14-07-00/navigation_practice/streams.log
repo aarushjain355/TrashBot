@@ -1,0 +1,1 @@
+[0.026s] Invoking command in '/home/vicky/TrashBot_ws/src/build/navigation_practice': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/vicky/TrashBot_ws/src/build/navigation_practice -- -j8 -l8

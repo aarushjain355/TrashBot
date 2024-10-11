@@ -1,0 +1,14 @@
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:[m[K In member function ‘[01m[Kvoid OccupancyGridToPoseGraph::grid_callback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:36:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Karray2D[m[K’ [[01;35m[K-Wvla[m[K]
+   36 |             int [01;35m[Karray2D[m[K[height][height];
+      |                 [01;35m[K^~~~~~~[m[K
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:36:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Karray2D[m[K’ [[01;35m[K-Wvla[m[K]
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:35:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktest_number_of_cells[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   35 |             int [01;35m[Ktest_number_of_cells[m[K = width*height;
+      |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:36:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karray2D[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   36 |             int [01;35m[Karray2D[m[K[height][height];
+      |                 [01;35m[K^~~~~~~[m[K
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:37:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   37 |             int [01;35m[Kcount[m[K = 0;
+      |                 [01;35m[K^~~~~[m[K

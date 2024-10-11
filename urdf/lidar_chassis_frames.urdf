@@ -1,0 +1,13 @@
+<robot name="trash_collector_bot">
+    <link name="base_link" />
+    <link name="odom" />
+
+    <joint name="frame_transformations" type="fixed">
+
+        <parent>base_link</parent>
+        <child>odom</child>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+
+    </joint>
+
+</robot>

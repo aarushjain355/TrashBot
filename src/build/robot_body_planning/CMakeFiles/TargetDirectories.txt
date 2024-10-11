@@ -1,0 +1,10 @@
+/home/vicky/TrashBot_ws/src/build/robot_body_planning/CMakeFiles/uninstall.dir
+/home/vicky/TrashBot_ws/src/build/robot_body_planning/CMakeFiles/robot_body_planning_uninstall.dir
+/home/vicky/TrashBot_ws/src/build/robot_body_planning/CMakeFiles/occupancy_map_retrieval.dir
+/home/vicky/TrashBot_ws/src/build/robot_body_planning/CMakeFiles/test.dir
+/home/vicky/TrashBot_ws/src/build/robot_body_planning/CMakeFiles/edit_cache.dir
+/home/vicky/TrashBot_ws/src/build/robot_body_planning/CMakeFiles/rebuild_cache.dir
+/home/vicky/TrashBot_ws/src/build/robot_body_planning/CMakeFiles/list_install_components.dir
+/home/vicky/TrashBot_ws/src/build/robot_body_planning/CMakeFiles/install.dir
+/home/vicky/TrashBot_ws/src/build/robot_body_planning/CMakeFiles/install/local.dir
+/home/vicky/TrashBot_ws/src/build/robot_body_planning/CMakeFiles/install/strip.dir

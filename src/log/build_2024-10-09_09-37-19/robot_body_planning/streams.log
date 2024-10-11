@@ -1,0 +1,8 @@
+[0.211s] Invoking command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/opt/ros/galactic /usr/bin/cmake --build /home/vicky/TrashBot_ws/src/build/robot_body_planning -- -j8 -l8
+[0.219s] [31mCMake Error at CMakeLists.txt:13:
+[0.219s]   Parse error.  Expected "(", got identifier with text "executable".
+[0.220s] 
+[0.220s] [0m
+[0.221s] -- Configuring incomplete, errors occurred!
+[0.221s] make: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.228s] Invoked command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/opt/ros/galactic /usr/bin/cmake --build /home/vicky/TrashBot_ws/src/build/robot_body_planning -- -j8 -l8
