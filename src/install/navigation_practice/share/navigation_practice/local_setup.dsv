@@ -1,2 +1,1 @@
-source;share/navigation_practice/environment/ament_prefix_path.sh
-source;share/navigation_practice/environment/path.sh
+/home/vicky/TrashBot_ws/src/build/navigation_practice/ament_cmake_environment_hooks/local_setup.dsv

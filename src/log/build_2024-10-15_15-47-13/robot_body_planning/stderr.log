@@ -1,0 +1,28 @@
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:[m[K In constructor ‘[01m[KOccupancyGridToPoseGraph::OccupancyGridToPoseGraph()[m[K’:
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:23:182:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[K_1[m[K’ is ambiguous
+   23 |             occupancy_grid_from_slam_subscriber = this->create_subscription<nav_msgs::msg::OccupancyGrid>("/map", 10, std::bind(&OccupancyGridToPoseGraph::obstacles_callback, this, [01;31m[K_1[m[K));
+      |                                                                                                                                                                                      [01;31m[K^~[m[K
+In file included from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:211:34:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kconst std::_Placeholder<1> std::placeholders::_1[m[K’
+  211 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                  [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/boost/bind/bind.hpp:2356[m[K,
+                 from [01m[K/usr/include/boost/bind.hpp:22[m[K,
+                 from [01m[K/usr/include/CGAL/Convex_hull_2/convexity_check_2_impl.h:21[m[K,
+                 from [01m[K/usr/include/CGAL/convexity_check_2.h:123[m[K,
+                 from [01m[K/usr/include/CGAL/Convex_hull_2/ch_akl_toussaint_impl.h:20[m[K,
+                 from [01m[K/usr/include/CGAL/ch_akl_toussaint.h:49[m[K,
+                 from [01m[K/usr/include/CGAL/convex_hull_2.h:21[m[K,
+                 from [01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:10[m[K:
+[01m[K/usr/include/boost/bind/placeholders.hpp:46:38:[m[K [01;36m[Knote: [m[K                ‘[01m[Kconstexpr const boost::arg<1> boost::placeholders::_1[m[K’
+   46 | BOOST_STATIC_CONSTEXPR boost::arg<1> [01;36m[K_1[m[K;
+      |                                      [01;36m[K^~[m[K
+make[2]: *** [CMakeFiles/occupancy_map_retrieval.dir/build.make:76: CMakeFiles/occupancy_map_retrieval.dir/src/occupancy_to_pose.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/occupancy_map_retrieval.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

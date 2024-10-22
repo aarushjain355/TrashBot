@@ -1,2 +1,1 @@
-source;share/robot_body_planning/environment/ament_prefix_path.sh
-source;share/robot_body_planning/environment/path.sh
+/home/vicky/TrashBot_ws/src/build/robot_body_planning/ament_cmake_environment_hooks/local_setup.dsv

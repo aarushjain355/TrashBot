@@ -1,0 +1,25 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/occupancy_map_retrieval.dir/src/occupancy_to_pose.cpp.o[0m
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:[m[K In member function ‘[01m[Kvoid OccupancyGridToPoseGraph::obstacles_callback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:37:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<signed char, std::allocator<signed char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   37 |             for (int k = 0; [01;35m[Kk < obstacles.data.size()[m[K; k++) {
+      |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable occupancy_map_retrieval[0m
+[100%] Built target occupancy_map_retrieval
+-- Install configuration: ""
+-- Installing: /home/vicky/TrashBot_ws/src/install/robot_body_planning/lib/robot_body_planning/occupancy_map_retrieval
+-- Set non-toolchain portion of runtime path of "/home/vicky/TrashBot_ws/src/install/robot_body_planning/lib/robot_body_planning/occupancy_map_retrieval" to ""
+-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/ament_index/resource_index/package_run_dependencies/robot_body_planning
+-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/ament_index/resource_index/parent_prefix_path/robot_body_planning
+-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/environment/ament_prefix_path.sh
+-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/environment/path.sh
+-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/environment/path.dsv
+-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/local_setup.bash
+-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/local_setup.sh
+-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/local_setup.zsh
+-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/local_setup.dsv
+-- Installing: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/package.dsv
+-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/ament_index/resource_index/packages/robot_body_planning
+-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/cmake/robot_body_planningConfig.cmake
+-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/cmake/robot_body_planningConfig-version.cmake
+-- Up-to-date: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/package.xml

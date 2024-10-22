@@ -1,0 +1,15 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/occupancy_map_retrieval.dir/src/occupancy_to_pose.cpp.o[0m
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:[m[K In member function ‘[01m[Kvoid OccupancyGridToPoseGraph::obstacles_callback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:34:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kmsg[m[K’
+   34 |             obstacles.header[01;31m[K [m[K[32m[Kmsg[m[K->header;
+      |                             [01;31m[K^[m[K[32m[K~~~[m[K
+      |                             [32m[K;[m[K
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:34:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+   34 |             [01;35m[Kobstacles.header[m[K msg->header;
+      |             [01;35m[K~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:37:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<signed char, std::allocator<signed char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   37 |             for (int k = 0; [01;35m[Kk < obstacles.data.size()[m[K; k++) {
+      |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/occupancy_map_retrieval.dir/build.make:76: CMakeFiles/occupancy_map_retrieval.dir/src/occupancy_to_pose.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/occupancy_map_retrieval.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

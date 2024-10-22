@@ -1,0 +1,245 @@
+[0.148s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.148s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], bazel_args=None, bazel_task=None, build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb04ce68940>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb04ce68940>, verb_name='build', verb_parser=<colcon_alias.argument_parser.alias.AliasArgumentDecorator object at 0x7fb04cdb6b80>)
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.267s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vicky/TrashBot_ws/src'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['bazel', 'cmake', 'python']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'bazel'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(navigation_practice) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(navigation_practice) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(navigation_practice) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(navigation_practice) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(navigation_practice) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(navigation_practice) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(navigation_practice) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(navigation_practice) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(navigation_practice) by extension 'ros'
+[0.274s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation_practice' with type 'ros.ament_cmake' and name 'navigation_practice'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(robot_body_perception) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(robot_body_perception) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(robot_body_perception) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(robot_body_perception) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(robot_body_perception) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(robot_body_perception) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(robot_body_perception) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(robot_body_perception) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(robot_body_perception) by extension 'ros'
+[0.274s] DEBUG:colcon.colcon_core.package_identification:Package 'robot_body_perception' with type 'ros.ament_python' and name 'robot_body_perception'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(robot_body_planning) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(robot_body_planning) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(robot_body_planning) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(robot_body_planning) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(robot_body_planning) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(robot_body_planning) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(robot_body_planning) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(robot_body_planning) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(robot_body_planning) by extension 'ros'
+[0.275s] DEBUG:colcon.colcon_core.package_identification:Package 'robot_body_planning' with type 'ros.ament_cmake' and name 'robot_body_planning'
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'navigation_practice' build argument 'bazel_args' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'navigation_practice' build argument 'bazel_task' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'navigation_practice' build argument 'cmake_args' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'navigation_practice' build argument 'cmake_target' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'navigation_practice' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'navigation_practice' build argument 'cmake_clean_cache' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'navigation_practice' build argument 'cmake_clean_first' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'navigation_practice' build argument 'cmake_force_configure' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'navigation_practice' build argument 'ament_cmake_args' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'navigation_practice' build argument 'catkin_cmake_args' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'navigation_practice' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.288s] DEBUG:colcon.colcon_core.verb:Building package 'navigation_practice' with the following arguments: {'ament_cmake_args': None, 'bazel_args': None, 'bazel_task': None, 'build_base': '/home/vicky/TrashBot_ws/src/build/navigation_practice', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vicky/TrashBot_ws/src/install/navigation_practice', 'merge_install': False, 'path': '/home/vicky/TrashBot_ws/src/navigation_practice', 'symlink_install': False, 'test_result_base': None}
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'robot_body_perception' build argument 'bazel_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'robot_body_perception' build argument 'bazel_task' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'robot_body_perception' build argument 'cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'robot_body_perception' build argument 'cmake_target' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'robot_body_perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'robot_body_perception' build argument 'cmake_clean_cache' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'robot_body_perception' build argument 'cmake_clean_first' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'robot_body_perception' build argument 'cmake_force_configure' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'robot_body_perception' build argument 'ament_cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'robot_body_perception' build argument 'catkin_cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'robot_body_perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.289s] DEBUG:colcon.colcon_core.verb:Building package 'robot_body_perception' with the following arguments: {'ament_cmake_args': None, 'bazel_args': None, 'bazel_task': None, 'build_base': '/home/vicky/TrashBot_ws/src/build/robot_body_perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vicky/TrashBot_ws/src/install/robot_body_perception', 'merge_install': False, 'path': '/home/vicky/TrashBot_ws/src/robot_body_perception', 'symlink_install': False, 'test_result_base': None}
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'robot_body_planning' build argument 'bazel_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'robot_body_planning' build argument 'bazel_task' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'robot_body_planning' build argument 'cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'robot_body_planning' build argument 'cmake_target' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'robot_body_planning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'robot_body_planning' build argument 'cmake_clean_cache' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'robot_body_planning' build argument 'cmake_clean_first' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'robot_body_planning' build argument 'cmake_force_configure' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'robot_body_planning' build argument 'ament_cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'robot_body_planning' build argument 'catkin_cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'robot_body_planning' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.289s] DEBUG:colcon.colcon_core.verb:Building package 'robot_body_planning' with the following arguments: {'ament_cmake_args': None, 'bazel_args': None, 'bazel_task': None, 'build_base': '/home/vicky/TrashBot_ws/src/build/robot_body_planning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vicky/TrashBot_ws/src/install/robot_body_planning', 'merge_install': False, 'path': '/home/vicky/TrashBot_ws/src/robot_body_planning', 'symlink_install': False, 'test_result_base': None}
+[0.289s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.290s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.290s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vicky/TrashBot_ws/src/navigation_practice' with build type 'ament_cmake'
+[0.290s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vicky/TrashBot_ws/src/navigation_practice'
+[0.292s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.292s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.292s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.294s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vicky/TrashBot_ws/src/robot_body_perception' with build type 'ament_python'
+[0.294s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_body_perception', 'ament_prefix_path')
+[0.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vicky/TrashBot_ws/src/install/robot_body_perception/share/robot_body_perception/hook/ament_prefix_path.ps1'
+[0.295s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vicky/TrashBot_ws/src/install/robot_body_perception/share/robot_body_perception/hook/ament_prefix_path.dsv'
+[0.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vicky/TrashBot_ws/src/install/robot_body_perception/share/robot_body_perception/hook/ament_prefix_path.sh'
+[0.296s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.296s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.297s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vicky/TrashBot_ws/src/robot_body_planning' with build type 'ament_cmake'
+[0.297s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vicky/TrashBot_ws/src/robot_body_planning'
+[0.298s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.298s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vicky/TrashBot_ws/src/build/navigation_practice': /usr/bin/cmake --build /home/vicky/TrashBot_ws/src/build/navigation_practice -- -j8 -l8
+[0.464s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vicky/TrashBot_ws/src/robot_body_perception'
+[0.464s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.464s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning': /usr/bin/cmake --build /home/vicky/TrashBot_ws/src/build/robot_body_planning -- -j8 -l8
+[0.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vicky/TrashBot_ws/src/build/navigation_practice' returned '0': /usr/bin/cmake --build /home/vicky/TrashBot_ws/src/build/navigation_practice -- -j8 -l8
+[0.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vicky/TrashBot_ws/src/build/navigation_practice': /usr/bin/cmake --install /home/vicky/TrashBot_ws/src/build/navigation_practice
+[0.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning' returned '0': /usr/bin/cmake --build /home/vicky/TrashBot_ws/src/build/robot_body_planning -- -j8 -l8
+[0.499s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_practice)
+[0.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vicky/TrashBot_ws/src/build/navigation_practice' returned '0': /usr/bin/cmake --install /home/vicky/TrashBot_ws/src/build/navigation_practice
+[0.503s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/navigation_practice' for CMake module files
+[0.503s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/navigation_practice' for CMake config files
+[0.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_practice', 'cmake_prefix_path')
+[0.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/hook/cmake_prefix_path.ps1'
+[0.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/hook/cmake_prefix_path.dsv'
+[0.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/hook/cmake_prefix_path.sh'
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/navigation_practice/bin'
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/navigation_practice/lib/pkgconfig/navigation_practice.pc'
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/navigation_practice/lib/python3.8/site-packages'
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/navigation_practice/bin'
+[0.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/package.ps1'
+[0.508s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/package.dsv'
+[0.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/package.sh'
+[0.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/package.bash'
+[0.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/package.zsh'
+[0.511s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vicky/TrashBot_ws/src/install/navigation_practice/share/colcon-core/packages/navigation_practice)
+[0.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning': /usr/bin/cmake --install /home/vicky/TrashBot_ws/src/build/robot_body_planning
+[0.523s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_practice)
+[0.524s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/navigation_practice' for CMake module files
+[0.524s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/navigation_practice' for CMake config files
+[0.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_practice', 'cmake_prefix_path')
+[0.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/hook/cmake_prefix_path.ps1'
+[0.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/hook/cmake_prefix_path.dsv'
+[0.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/hook/cmake_prefix_path.sh'
+[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/navigation_practice/bin'
+[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/navigation_practice/lib/pkgconfig/navigation_practice.pc'
+[0.527s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/navigation_practice/lib/python3.8/site-packages'
+[0.527s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/navigation_practice/bin'
+[0.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/package.ps1'
+[0.527s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/package.dsv'
+[0.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/package.sh'
+[0.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/package.bash'
+[0.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/vicky/TrashBot_ws/src/install/navigation_practice/share/navigation_practice/package.zsh'
+[0.529s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vicky/TrashBot_ws/src/install/navigation_practice/share/colcon-core/packages/navigation_practice)
+[0.529s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_body_planning)
+[0.530s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/robot_body_planning' for CMake module files
+[0.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning' returned '0': /usr/bin/cmake --install /home/vicky/TrashBot_ws/src/build/robot_body_planning
+[0.530s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/robot_body_planning' for CMake config files
+[0.531s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_body_planning', 'cmake_prefix_path')
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/hook/cmake_prefix_path.ps1'
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/hook/cmake_prefix_path.dsv'
+[0.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/hook/cmake_prefix_path.sh'
+[0.532s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/robot_body_planning/lib'
+[0.532s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/robot_body_planning/bin'
+[0.532s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/robot_body_planning/lib/pkgconfig/robot_body_planning.pc'
+[0.533s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/robot_body_planning/lib/python3.8/site-packages'
+[0.533s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/robot_body_planning/bin'
+[0.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/package.ps1'
+[0.533s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/package.dsv'
+[0.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/package.sh'
+[0.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/package.bash'
+[0.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/package.zsh'
+[0.534s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vicky/TrashBot_ws/src/install/robot_body_planning/share/colcon-core/packages/robot_body_planning)
+[0.548s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_body_planning)
+[0.549s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/robot_body_planning' for CMake module files
+[0.549s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/robot_body_planning' for CMake config files
+[0.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_body_planning', 'cmake_prefix_path')
+[0.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/hook/cmake_prefix_path.ps1'
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/hook/cmake_prefix_path.dsv'
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/hook/cmake_prefix_path.sh'
+[0.550s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/robot_body_planning/lib'
+[0.550s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/robot_body_planning/bin'
+[0.550s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/robot_body_planning/lib/pkgconfig/robot_body_planning.pc'
+[0.551s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/robot_body_planning/lib/python3.8/site-packages'
+[0.551s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/robot_body_planning/bin'
+[0.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/package.ps1'
+[0.551s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/package.dsv'
+[0.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/package.sh'
+[0.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/package.bash'
+[0.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/package.zsh'
+[0.553s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vicky/TrashBot_ws/src/install/robot_body_planning/share/colcon-core/packages/robot_body_planning)
+[0.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vicky/TrashBot_ws/src/robot_body_perception': PYTHONPATH=/home/vicky/TrashBot_ws/src/build/robot_body_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vicky/TrashBot_ws/src/install/robot_body_perception/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/robot_body_perception build --build-base /home/vicky/TrashBot_ws/src/build/robot_body_perception/build install --record /home/vicky/TrashBot_ws/src/build/robot_body_perception/install.log --single-version-externally-managed install_data
+[1.002s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/robot_body_perception' for CMake module files
+[1.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vicky/TrashBot_ws/src/robot_body_perception' returned '0': PYTHONPATH=/home/vicky/TrashBot_ws/src/build/robot_body_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vicky/TrashBot_ws/src/install/robot_body_perception/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/robot_body_perception build --build-base /home/vicky/TrashBot_ws/src/build/robot_body_perception/build install --record /home/vicky/TrashBot_ws/src/build/robot_body_perception/install.log --single-version-externally-managed install_data
+[1.003s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/robot_body_perception' for CMake config files
+[1.003s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/robot_body_perception/lib'
+[1.003s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/robot_body_perception/bin'
+[1.003s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/robot_body_perception/lib/pkgconfig/robot_body_perception.pc'
+[1.003s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/robot_body_perception/lib/python3.8/site-packages'
+[1.004s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_body_perception', 'pythonpath')
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vicky/TrashBot_ws/src/install/robot_body_perception/share/robot_body_perception/hook/pythonpath.ps1'
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vicky/TrashBot_ws/src/install/robot_body_perception/share/robot_body_perception/hook/pythonpath.dsv'
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vicky/TrashBot_ws/src/install/robot_body_perception/share/robot_body_perception/hook/pythonpath.sh'
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/vicky/TrashBot_ws/src/install/robot_body_perception/bin'
+[1.005s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_body_perception)
+[1.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/vicky/TrashBot_ws/src/install/robot_body_perception/share/robot_body_perception/package.ps1'
+[1.006s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vicky/TrashBot_ws/src/install/robot_body_perception/share/robot_body_perception/package.dsv'
+[1.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/vicky/TrashBot_ws/src/install/robot_body_perception/share/robot_body_perception/package.sh'
+[1.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/vicky/TrashBot_ws/src/install/robot_body_perception/share/robot_body_perception/package.bash'
+[1.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/vicky/TrashBot_ws/src/install/robot_body_perception/share/robot_body_perception/package.zsh'
+[1.007s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vicky/TrashBot_ws/src/install/robot_body_perception/share/colcon-core/packages/robot_body_perception)
+[1.007s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.008s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.008s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.008s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.012s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.012s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.012s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.022s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.022s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vicky/TrashBot_ws/src/install/local_setup.ps1'
+[1.023s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vicky/TrashBot_ws/src/install/_local_setup_util_ps1.py'
+[1.024s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vicky/TrashBot_ws/src/install/setup.ps1'
+[1.025s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vicky/TrashBot_ws/src/install/local_setup.sh'
+[1.025s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vicky/TrashBot_ws/src/install/_local_setup_util_sh.py'
+[1.025s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vicky/TrashBot_ws/src/install/setup.sh'
+[1.036s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vicky/TrashBot_ws/src/install/local_setup.bash'
+[1.037s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vicky/TrashBot_ws/src/install/setup.bash'
+[1.037s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vicky/TrashBot_ws/src/install/local_setup.zsh'
+[1.038s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vicky/TrashBot_ws/src/install/setup.zsh'
+[1.038s] INFO:colcon.colcon_core.shell:Creating '/home/vicky/TrashBot_ws/src/install/spawn_shell.bash'

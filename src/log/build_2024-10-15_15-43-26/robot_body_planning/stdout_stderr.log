@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/occupancy_map_retrieval.dir/src/occupancy_to_pose.cpp.o[0m
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:[m[K In member function ‘[01m[Kvoid OccupancyGridToPoseGraph::obstacles_callback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:47:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_vector[m[K’ was not declared in this scope
+   47 |             [01;31m[Kmy_vector[m[K.push_back(point);
+      |             [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/occupancy_map_retrieval.dir/build.make:76: CMakeFiles/occupancy_map_retrieval.dir/src/occupancy_to_pose.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/occupancy_map_retrieval.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

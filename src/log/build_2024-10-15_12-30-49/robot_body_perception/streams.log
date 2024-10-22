@@ -1,0 +1,22 @@
+[0.708s] Invoking command in '/home/vicky/TrashBot_ws/src/build/robot_body_perception': PYTHONPATH=/home/vicky/TrashBot_ws/src/build/robot_body_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vicky/TrashBot_ws/src/install/robot_body_perception/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vicky/TrashBot_ws/src/build/robot_body_perception/build --no-deps symlink_data --force
+[0.990s] running develop
+[1.158s] running egg_info
+[1.158s] writing robot_body_perception.egg-info/PKG-INFO
+[1.158s] writing dependency_links to robot_body_perception.egg-info/dependency_links.txt
+[1.158s] writing entry points to robot_body_perception.egg-info/entry_points.txt
+[1.159s] writing requirements to robot_body_perception.egg-info/requires.txt
+[1.159s] writing top-level names to robot_body_perception.egg-info/top_level.txt
+[1.194s] reading manifest file 'robot_body_perception.egg-info/SOURCES.txt'
+[1.194s] writing manifest file 'robot_body_perception.egg-info/SOURCES.txt'
+[1.228s] running build_ext
+[1.229s] Creating /home/vicky/TrashBot_ws/src/install/robot_body_perception/lib/python3.8/site-packages/site.py
+[1.231s] Creating /home/vicky/TrashBot_ws/src/install/robot_body_perception/lib/python3.8/site-packages/robot-body-perception.egg-link (link to .)
+[1.232s] Installing wrapper script to /home/vicky/TrashBot_ws/src/install/robot_body_perception/lib/robot_body_perception
+[1.232s] 
+[1.233s] Installed /home/vicky/TrashBot_ws/src/build/robot_body_perception
+[1.233s] running symlink_data
+[1.233s] symbolically linking /home/vicky/TrashBot_ws/src/build/robot_body_perception/resource/robot_body_perception -> /home/vicky/TrashBot_ws/src/install/robot_body_perception/share/ament_index/resource_index/packages
+[1.233s] symbolically linking /home/vicky/TrashBot_ws/src/build/robot_body_perception/package.xml -> /home/vicky/TrashBot_ws/src/install/robot_body_perception/share/robot_body_perception
+[1.233s] symbolically linking /home/vicky/TrashBot_ws/src/build/robot_body_perception/launch/robot_state_publisher.py -> /home/vicky/TrashBot_ws/src/install/robot_body_perception/share/robot_body_perception/launch
+[1.233s] symbolically linking /home/vicky/TrashBot_ws/src/build/robot_body_perception/urdf/lidar_chassis_frames.urdf -> /home/vicky/TrashBot_ws/src/install/robot_body_perception/share/robot_body_perception/urdf
+[1.265s] Invoked command in '/home/vicky/TrashBot_ws/src/build/robot_body_perception' returned '0': PYTHONPATH=/home/vicky/TrashBot_ws/src/build/robot_body_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vicky/TrashBot_ws/src/install/robot_body_perception/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vicky/TrashBot_ws/src/build/robot_body_perception/build --no-deps symlink_data --force

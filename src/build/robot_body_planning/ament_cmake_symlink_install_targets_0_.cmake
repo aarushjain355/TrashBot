@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/vicky/TrashBot_ws/src/build/robot_body_planning/occupancy_map_retrieval" "TARGETS" "occupancy_map_retrieval" "DESTINATION" "lib/robot_body_planning")

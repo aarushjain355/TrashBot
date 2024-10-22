@@ -1,0 +1,25 @@
+[0.423s] Invoking command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/opt/ros/galactic /usr/bin/cmake --build /home/vicky/TrashBot_ws/src/build/robot_body_planning -- -j8 -l8
+[0.481s] [ 50%] [32mBuilding CXX object CMakeFiles/occupancy_map_retrieval.dir/src/occupancy_to_pose.cpp.o[0m
+[11.972s] [100%] [32m[1mLinking CXX executable occupancy_map_retrieval[0m
+[12.432s] [100%] Built target occupancy_map_retrieval
+[12.440s] Invoked command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/opt/ros/galactic /usr/bin/cmake --build /home/vicky/TrashBot_ws/src/build/robot_body_planning -- -j8 -l8
+[12.471s] Invoking command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/opt/ros/galactic /usr/bin/cmake --install /home/vicky/TrashBot_ws/src/build/robot_body_planning
+[12.479s] -- Install configuration: ""
+[12.479s] -- Execute custom install script
+[12.480s] -- Up-to-date symlink: /home/vicky/TrashBot_ws/src/install/robot_body_planning/lib/robot_body_planning/occupancy_map_retrieval
+[12.480s] -- Up-to-date symlink: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/ament_index/resource_index/package_run_dependencies/robot_body_planning
+[12.480s] -- Up-to-date symlink: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/ament_index/resource_index/parent_prefix_path/robot_body_planning
+[12.481s] -- Up-to-date symlink: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/environment/ament_prefix_path.sh
+[12.481s] -- Up-to-date symlink: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/environment/ament_prefix_path.dsv
+[12.481s] -- Up-to-date symlink: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/environment/path.sh
+[12.481s] -- Up-to-date symlink: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/environment/path.dsv
+[12.482s] -- Up-to-date symlink: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/local_setup.bash
+[12.482s] -- Up-to-date symlink: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/local_setup.sh
+[12.482s] -- Up-to-date symlink: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/local_setup.zsh
+[12.483s] -- Up-to-date symlink: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/local_setup.dsv
+[12.483s] -- Symlinking: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/package.dsv
+[12.490s] -- Up-to-date symlink: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/ament_index/resource_index/packages/robot_body_planning
+[12.490s] -- Up-to-date symlink: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/cmake/robot_body_planningConfig.cmake
+[12.491s] -- Up-to-date symlink: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/cmake/robot_body_planningConfig-version.cmake
+[12.491s] -- Up-to-date symlink: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/package.xml
+[12.494s] Invoked command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/opt/ros/galactic /usr/bin/cmake --install /home/vicky/TrashBot_ws/src/build/robot_body_planning

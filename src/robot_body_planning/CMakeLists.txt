@@ -9,10 +9,16 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(nav_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(CGAL REQUIRED)
 
 add_executable(occupancy_map_retrieval src/occupancy_to_pose.cpp)
-ament_target_dependencies(occupancy_map_retrieval rclcpp nav_msgs)
+ament_target_dependencies(occupancy_map_retrieval rclcpp nav_msgs geometry_msgs)
 
+target_include_directories(occupancy_map_retrieval
+  PUBLIC
+  ${CGAL_INCLUDE_DIRS}
+)
 install(TARGETS    
   occupancy_map_retrieval
   DESTINATION lib/${PROJECT_NAME})

@@ -1,0 +1,4 @@
+Invoking command in '/home/vicky/TrashBot_ws/src/build/navigation_practice': /usr/bin/cmake --build /home/vicky/TrashBot_ws/src/build/navigation_practice -- -j8 -l8
+Invoked command in '/home/vicky/TrashBot_ws/src/build/navigation_practice' returned '0': /usr/bin/cmake --build /home/vicky/TrashBot_ws/src/build/navigation_practice -- -j8 -l8
+Invoking command in '/home/vicky/TrashBot_ws/src/build/navigation_practice': /usr/bin/cmake --install /home/vicky/TrashBot_ws/src/build/navigation_practice
+Invoked command in '/home/vicky/TrashBot_ws/src/build/navigation_practice' returned '0': /usr/bin/cmake --install /home/vicky/TrashBot_ws/src/build/navigation_practice

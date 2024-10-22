@@ -1,0 +1,22 @@
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:[m[K In member function ‘[01m[Kvoid OccupancyGridToPoseGraph::obstacles_callback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:38:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<signed char, std::allocator<signed char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   38 |             for (int k = 0; [01;35m[Kk < obstacles.data.size()[m[K; k++) {
+      |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:47:38:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst std::vector<geometry_msgs::msg::Point_<std::allocator<void> > >[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+   47 |             my_vector.push_back(point[01;31m[K)[m[K;
+      |                                      [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/vector:67[m[K,
+                 from [01m[K/usr/include/c++/9/functional:62[m[K,
+                 from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_vector.h:1184:7:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = geometry_msgs::msg::Point_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::value_type = geometry_msgs::msg::Point_<std::allocator<void> >][m[K’
+ 1184 |       [01;36m[Kpush_back[m[K(const value_type& __x)
+      |       [01;36m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/occupancy_map_retrieval.dir/build.make:76: CMakeFiles/occupancy_map_retrieval.dir/src/occupancy_to_pose.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/occupancy_map_retrieval.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

@@ -1,6 +1,17 @@
-#include <iostream>
+// #include <iostream>
 
 
-using namespace std;
+// using namespace std;
 
 
+// class AffinityPropogation {
+
+//     public:
+    
+//         AffinityPropogation() : 
+
+//     private:
+
+
+
+// };

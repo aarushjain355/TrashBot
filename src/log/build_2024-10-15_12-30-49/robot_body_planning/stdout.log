@@ -1,0 +1,45 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/vicky/TrashBot_ws/src/build/robot_body_planning
+[ 50%] [32m[1mLinking CXX executable occupancy_map_retrieval[0m
+[100%] Built target occupancy_map_retrieval
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/vicky/TrashBot_ws/src/install/robot_body_planning/lib/robot_body_planning/occupancy_map_retrieval
+-- Symlinking: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/ament_index/resource_index/package_run_dependencies/robot_body_planning
+-- Symlinking: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/ament_index/resource_index/parent_prefix_path/robot_body_planning
+-- Symlinking: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/environment/ament_prefix_path.sh
+-- Symlinking: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/environment/ament_prefix_path.dsv
+-- Symlinking: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/environment/path.sh
+-- Symlinking: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/environment/path.dsv
+-- Symlinking: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/local_setup.bash
+-- Symlinking: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/local_setup.sh
+-- Symlinking: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/local_setup.zsh
+-- Symlinking: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/local_setup.dsv
+-- Symlinking: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/package.dsv
+-- Symlinking: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/ament_index/resource_index/packages/robot_body_planning
+-- Symlinking: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/cmake/robot_body_planningConfig.cmake
+-- Symlinking: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/cmake/robot_body_planningConfig-version.cmake
+-- Symlinking: /home/vicky/TrashBot_ws/src/install/robot_body_planning/share/robot_body_planning/package.xml

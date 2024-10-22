@@ -1,0 +1,10 @@
+[0.335s] Invoking command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/opt/ros/galactic /usr/bin/cmake --build /home/vicky/TrashBot_ws/src/build/robot_body_planning -- -j8 -l8
+[0.371s] [ 50%] [32mBuilding CXX object CMakeFiles/occupancy_map_retrieval.dir/src/occupancy_to_pose.cpp.o[0m
+[2.189s] [01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:[m[K In member function ‘[01m[Kvoid OccupancyGridToPoseGraph::obstacles_callback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.189s] [01m[K/home/vicky/TrashBot_ws/src/robot_body_planning/src/occupancy_to_pose.cpp:47:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class OccupancyGridToPoseGraph[m[K’ has no member named ‘[01m[Kmy_vector[m[K’
+[2.190s]    47 |             this->[01;31m[Kmy_vector[m[K.push_back(point);
+[2.190s]       |                   [01;31m[K^~~~~~~~~[m[K
+[3.845s] make[2]: *** [CMakeFiles/occupancy_map_retrieval.dir/build.make:76: CMakeFiles/occupancy_map_retrieval.dir/src/occupancy_to_pose.cpp.o] Error 1
+[3.845s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/occupancy_map_retrieval.dir/all] Error 2
+[3.845s] make: *** [Makefile:146: all] Error 2
+[3.846s] Invoked command in '/home/vicky/TrashBot_ws/src/build/robot_body_planning' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vicky/TrashBot_ws/src/install/robot_body_perception:/opt/ros/galactic /usr/bin/cmake --build /home/vicky/TrashBot_ws/src/build/robot_body_planning -- -j8 -l8
