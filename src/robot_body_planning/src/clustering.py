@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import seaborn as sns
+import math
 import warnings
 
 class DENCLUECLUSTERING:
@@ -23,5 +24,11 @@ class DENCLUECLUSTERING:
         density = []
 
         for i in range(len(self.points)):
-            
-
+            density_sum_value = 0
+            for j in range(len(self.points)):
+                if j != i:
+                    u = (self.points[i] - self.points[j]) // self.h_x
+                    v = (self.points[i] - self.points[j]) // self.h_y
+                    kernel_value = (1//(2*math.pi))*math.e**(-0.5*(u**2 + v**2))
+                    density_sum_value += kernel_value
+            density.append((1//(len(self.points)*self.h_x*self.h_y))*density_sum_value)
